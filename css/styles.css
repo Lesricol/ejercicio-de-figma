@@ -18,6 +18,8 @@ body {
 h2 {
   font-family: 'Big Shoulders Display', sans-serif;
   font-weight: 700;
+}
+.card-title {
   margin-bottom: 25px;
 }
 .card {
@@ -61,6 +63,7 @@ h2 {
 }
 .img {
   position: relative;
+  margin-bottom: 35px;
 }
 
 .box {
