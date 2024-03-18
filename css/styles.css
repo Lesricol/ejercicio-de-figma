@@ -10,13 +10,65 @@ a {
   color: inherit;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
+  color: white;
+}
+h2 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.card {
+  position: relative;
+  width: 327px;
+  height: 442px;
+  padding: 48px;
+}
+
+.card-1 {
+  background-color: #e28625;
+  border-radius: 8px 8px 0px 0px;
+}
+.boton-1,
+.boton-2,
+.boton-3 {
+  position: absolute;
+  bottom: 48px;
+  background-color: white;
+  padding: 12px;
+  width: 146px;
+  text-align: center;
+  border-radius: 25px;
+}
+.boton-1 {
+  color: #e28625;
+}
+.boton-2 {
+  color: #006971;
+}
+.boton-3 {
+  color: #004140;
+}
+
+.card-2 {
+  background-color: #006971;
+}
+.card-3 {
+  background-color: #004140;
+  border-radius: 0px 0px 8px 8px;
+}
+.img {
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 28px;
+  top: 40px;
+  background-color: rgba(0, 0, 0, 0.199);
+  border-radius: 50%;
 }
