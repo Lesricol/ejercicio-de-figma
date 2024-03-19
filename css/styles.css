@@ -28,6 +28,8 @@ h2 {
   margin-bottom: 25px;
 }
 .card {
+  display: inline-block;
+  vertical-align: bottom;
   position: relative;
   width: 327px;
   height: 442px;
@@ -60,6 +62,16 @@ h2 {
   color: #004140;
 }
 
+@media (hover: hover) {
+  .boton-1:hover,
+  .boton-2:hover,
+  .boton-3:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+  }
+}
+
 .card-2 {
   background-color: #006971;
 }
@@ -67,24 +79,24 @@ h2 {
   background-color: #004140;
   border-radius: 0px 0px 8px 8px;
 }
-.img {
-  position: relative;
-  margin-bottom: 35px;
-}
 
-.box {
-  position: absolute;
+.image-container {
+  position: relative;
   width: 40px;
   height: 40px;
-  left: 28px;
-  top: 40px;
   background-color: rgba(0, 0, 0, 0.199);
   border-radius: 50%;
 }
 
+.img {
+  position: absolute;
+  margin-bottom: 35px;
+  left: 20px;
+  top: 10px;
+}
+
 @media screen and (width >= 720px) {
   .card {
-    display: inline-block;
     width: 307px;
     height: 500px;
   }
