@@ -1,6 +1,6 @@
 # 3 column preview
 
-![Imagen del proyecto]([https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true](https://raw.githubusercontent.com/Lesricol/ejercicio-de-figma/main/design/desktop-preview.jpg))
+![Imagen del proyecto](https://raw.githubusercontent.com/Lesricol/ejercicio-de-figma/main/design/desktop-preview.jpg)
 
 ## Ejemplo en vivo
 
